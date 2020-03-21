@@ -1,0 +1,11 @@
+.root {}
+
+.menu__open {
+  transition: opacity 0.25s ease;
+  opacity: 1;
+}
+
+.menu__closed {
+  opacity: 0;
+  @apply hidden !important;
+}
